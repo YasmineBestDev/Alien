@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@babylonjs/core": "^8.46.2"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1"
   }
 }
