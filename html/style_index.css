@@ -1,0 +1,83 @@
+/*=======MAIN PAGE STYLESHEET=======*/
+
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+
+    display: none;
+}
+
+/*styling the body*/
+body {
+    background-image: url('../assets/ALIEN_MAIN_BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lilita One', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 37vh;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+
+.menu li {
+
+    font-size: 64px;
+    list-style: none;
+    background-color: #C4CAF6;
+    border-radius: 15px;
+    padding: 2vh 10vh;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+
+}
+.menu li:first-child {
+    padding: 2vh 15vh;
+}
+
+.menu li:hover {
+
+    transform: scale(1.05);
+    background-color: #d5d9fa;
+    transition: transform 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+footer {
+    position: absolute;
+    bottom: 2vh;
+    right: 5vw;
+    display: inline-block;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
